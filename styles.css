@@ -1,1 +1,53 @@
 /* Write your CSS here! */
+img {
+    width: 273px;
+    margin: 5px 0px;
+}
+header {
+    background-color: rgb(228, 209, 181);
+    padding: 15px;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+}
+body{
+    overflow-x: hidden;
+    width: 90vw;
+    background:peachpuff;
+}
+main{
+    width: 30vw;
+}
+h1 {
+    font-size: 3rem;
+    font-family: fantasy;
+}
+h2 {
+    text-align: left;
+    text-transform:uppercase;
+}
+p {
+    font-style: italic;
+}
+b {
+    font-style: oblique;
+}
+footer{
+    background:coral;
+    margin:0px;
+    padding:10px;
+    text-align:center
+}
+
+#h-title{
+    text-align:center;
+}
+
+#coffeetime{
+    text-align:center;
+}
+
+
+.right{
+    float:right
+}
