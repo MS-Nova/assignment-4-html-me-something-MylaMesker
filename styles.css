@@ -1,53 +1,77 @@
 /* Write your CSS here! */
+/* element */
 img {
-    width: 273px;
-    margin: 5px 0px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom:0px;
 }
 header {
-    background-color: rgb(228, 209, 181);
-    padding: 15px;
-    margin-top: 0%;
-    margin-right: 0%;
-    margin-bottom: 2%;
+    height: auto;
+    padding: 0px;
+    margin:0px
 }
 body{
-    overflow-x: hidden;
-    width: 90vw;
     background:peachpuff;
+    font-size: 12pt;
+    margin: 8px;
+    padding: 10px;
+    
 }
 main{
-    width: 30vw;
-}
-h1 {
-    font-size: 3rem;
-    font-family: fantasy;
-}
-h2 {
-    text-align: left;
-    text-transform:uppercase;
-}
-p {
-    font-style: italic;
-}
-b {
-    font-style: oblique;
+    color: navy;
+    
 }
 footer{
     background:coral;
-    margin:0px;
+    color: grey;
+    margin:0 px;
     padding:10px;
-    text-align:center
-}
-
-#h-title{
     text-align:center;
 }
+h1 {
+    font-size: 2rem;
+    font-family: fantasy;
+}
+h2 {
+    color:navy;
+    text-align: left;
+    text-decoration: underline;
+}
+ h3 {
+    font-weight: bold;
+    margin:10px;
+}
+h4 {
+    margin:10px;
+    line-height: .5;
+} 
+b {
+    font-style: oblique;
+}
+/* id */
+#mainHeading {
 
-#coffeetime{
+    color: red;
     text-align:center;
+   
+ }
+ 
+ #testP{
+    font-style: italic;
 }
 
+/* classes */
 
-.right{
-    float:right
-}
+ .funParagraph{
+     color:green;
+     
+ }
+.centerimg {
+    float: right;
+    margin-left: 70%;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+  }
+  
+  
